@@ -2,8 +2,24 @@ from openai import OpenAI
 client = OpenAI(
     api_key="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"
 )
+import datetime
 
+def Command(Prompt):
+    completion = client.chat.completions.create(
+        model="gpt-3.5-turbo-1106",
+        temperature=0,
+        messages=[
+            {"role": "user", "content": Prompt}
+        ]
+    )
+    result = completion.choices[0]
+    message = result.message.content
+    print(datetime.datetime.now())
+    return message
 
+print("test :", Command("너는 gpt가 맞지?"))
+
+'''
 completion = client.chat.completions.create(
     model="gpt-3.5-turbo-1106",
     messages=[
@@ -15,3 +31,4 @@ completion = client.chat.completions.create(
 )
 
 print(completion.choices[0].message.content)
+'''

@@ -1,6 +1,6 @@
 from openai import OpenAI
 client = OpenAI(
-    api_key="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"
+    api_key="apiKey"
 )
 import datetime
 

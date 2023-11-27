@@ -1,4 +1,5 @@
 # Tele_GPT
+connect gpt with telegram
 ## echo 
 <img src="https://github.com/jioji0/Tele_GPT/assets/86821510/ecd542a9-c9cb-4919-b372-ad579b8b96a9.png"  width="400" height="800"/>
 

@@ -7,7 +7,7 @@ import api
 from telegram import ForceReply, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
-token = "5965897880:AAHwEJqt5Axjg_TpL3c-fys78nJ7vFRqeF0"
+token = "input your token"
 
 # Define a few command handlers. These usually take the two arguments update and
 # context.
